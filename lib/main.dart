@@ -21,17 +21,14 @@ class LoginPage extends StatelessWidget {
   final TextEditingController passwordController = TextEditingController();
 
   void _loginWithEmail() {
-    // Implement email login logic here
     print('Logging in with email');
   }
 
   void _forgotPassword() {
-    // Implement forgot password logic here
     print('Forgot password');
   }
 
   void _loginWithGoogle() {
-    // Implement login with Google logic here
     print('Logging in with Google');
   }
 
@@ -57,7 +54,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(backgroundColor: Colors.deepPurple,
       body: Stack(
         alignment: Alignment.center,
-        children: <Widget>[
+        children:[
           Positioned(top: 10.h,right: 45.w,
             child: Container(
               child: Column(
